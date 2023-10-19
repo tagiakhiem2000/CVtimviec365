@@ -1,0 +1,190 @@
+<!-- <div class="block_left" id="block_left">
+      <div>
+        <div class="top" id="top">
+          <div class="ctn_taocv">
+            <div class="doi_maucv">
+              <img
+                src="https://dev.timviec365.vn/cv365/images/img_new/exp_doimaucv.png"
+                alt="đổi mẫu cv"
+              />
+              <p class="text_change_cv">Tên CV</p>
+            </div>
+            <button type="button" class="mo_rong">
+              <img
+                src="https://dev.timviec365.vn/cv365/images/img_new/exp_morong.png"
+                class="avt_icon_mrtn"
+                alt="mở rộng"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="center" id="center">
+          <div class="nhap_tao_cv">
+            <div class="ctn_thongtin_cv">
+              <div class="dm_ttin_chitiet" id="dm_ttin_chitiet">
+                <p class="muc_chon" id="muc_chon">
+                  Thông tin chung<img
+                    src="https://dev.timviec365.vn/cv365/images/img_new/exp_up.png"
+                  />
+                </p>
+                <div class="tatca_dm" id="tatca_dm" style="display: none">
+                  <div class="ctn_tatca_muc">
+                    <p class="chonmuc_moi active" data-id="0">
+                      Thông tin chung
+                    </p>
+                    <p class="chonmuc_moi" data-id="1">Ngôn ngữ</p>
+                    <p class="chonmuc_moi" data-id="2">Kỹ năng</p>
+                    <p class="chonmuc_moi" data-id="3">Thông tin liên hệ</p>
+                    <p class="chonmuc_moi" data-id="4">Kinh nghiệm làm việc</p>
+                  </div>
+                </div>
+              </div>
+              <div class="xoa_dm">
+                <img
+                  src="https://dev.timviec365.vn/cv365/images/img_new/exp_xoamuc.png"
+                  alt="xóa mục"
+                />
+              </div>
+            </div>
+            <div class="noidung_cv">
+              <div class="ttin_noidung active" data-id="0">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Nhập tên"
+                  id="name-input"
+                />
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Nhập công việc"
+                  id="job-input"
+                />
+                <textarea
+                  id="abstract-input"
+                  cols="18"
+                  rows="10"
+                  placeholder="Nhập tiểu sử"
+                  class="textarea"
+                ></textarea>
+              </div>
+              <div class="ttin_noidung" data-id="1">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Nhập ngôn ngữ"
+                  id="language-title-input"
+                />
+                <input
+                  class="input"
+                  type="number"
+                  placeholder="Nhập mức độ thành thạo (phần trăm)"
+                  id="language-value-input"
+                  maxlength="2"
+                />
+              </div>
+              <div class="ttin_noidung" data-id="2">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Nhập kỹ năng"
+                  id="skills-title-input"
+                />
+                <input
+                  class="input"
+                  type="number"
+                  placeholder="Nhập mức độ thành thạo"
+                  id="skills-value-input"
+                />
+              </div>
+              <div class="ttin_noidung" data-id="3">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Nhập phương thức liên hệ"
+                  id="contact-title-input"
+                />
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Nhập nội dung"
+                  id="contact-context-input"
+                />
+              </div>
+              <div class="ttin_noidung" data-id="4">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Nhập thời gian làm việc"
+                  id="exp-date-input"
+                />
+                <textarea
+                  id="exp-context-input"
+                  cols="18"
+                  rows="10"
+                  placeholder="Nhập mô tả công việc"
+                  class="textarea"
+                ></textarea>
+              </div>
+              <div id="button-submit">
+                <img
+                  class="gui_ai active"
+                  src="https://dev.timviec365.vn/cv365/images/img_new/exp_send_ai.png"
+                  alt="gửi sang ai"
+                  id="submit"
+                  data-id="0"
+                  style="display: none"
+                />
+                <img
+                  class="gui_ai"
+                  src="https://dev.timviec365.vn/cv365/images/img_new/exp_send_ai.png"
+                  alt="gửi sang ai"
+                  id="add-language"
+                  data-id="1"
+                  style="display: none"
+                />
+                <img
+                  class="gui_ai"
+                  src="https://dev.timviec365.vn/cv365/images/img_new/exp_send_ai.png"
+                  alt="gửi sang ai"
+                  id="add-skills"
+                  data-id="2"
+                  style="display: none"
+                />
+                <img
+                  class="gui_ai"
+                  src="https://dev.timviec365.vn/cv365/images/img_new/exp_send_ai.png"
+                  alt="gửi sang ai"
+                  id="add-contact"
+                  data-id="3"
+                  style="display: none"
+                />
+                <img
+                  class="gui_ai"
+                  src="https://dev.timviec365.vn/cv365/images/img_new/exp_send_ai.png"
+                  alt="gửi sang ai"
+                  id="add-exp"
+                  data-id="4"
+                  style="display: none"
+                />
+                <div class="icon-download">
+                  <img
+                    src="https://dev.timviec365.vn/cv365/images/tuan_images/icon_download_draw_cv.svg"
+                    alt="lưu cv"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="click-down">
+              <p class="btn_luu_cv">
+                <img
+                  src="https://dev.timviec365.vn/cv365/images/tuan_images/icon_download_draw_cv.svg"
+                  alt="lưu cv"
+                />
+                <span>Lưu và tải xuống</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->

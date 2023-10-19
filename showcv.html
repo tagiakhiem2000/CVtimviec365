@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" href="cv-new2.css" />
+  <link rel="stylesheet" href="cv.css" /> -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="page_create_cvAi">
+    <div class="container_taocv">
+      <div id="cvWrapper" style="height: 1185px;">
+        <iframe id="cv2" src="./firstproject-timviec365/index.html" frameborder="0" width="100%" height="100%"
+          scrolling="no"></iframe>
+      </div>
+      <div class="block_left">
+        <div class="nhap_tao_cv">
+          <div class="dm_ttin_chitiet">
+            <p class="muc_chon">
+              Mục tiêu nghề nghiệp
+            <div class="xoa_dm">
+              <img src="images/exp_xoamuc.png" alt="xóa mục">
+            </div>
+            <img src="images/arr_down_blue.svg" alt="icon" />
+            </p>
+            <div class="tatca_dm">
+              <div class="ctn_tatca_muc">
+                <p class="chonmuc_moi" data-id="cv_content_caree">Mục tiêu nghề nghiệp</p>
+                <p class="chonmuc_moi" data-id="cv_content_info">Thông tin ứng tuyển</p>
+                <p class="chonmuc_moi" data-id="cv_content_avatar">Ảnh đại diện</p>
+                <p class="chonmuc_moi" data-id="cv_content_contact">Thông tin liên hệ</p>
+                <p class="chonmuc_moi" data-id="cv_content_social">Mạng xã hội</p>
+                <p class="chonmuc_moi" data-id="cv_content_interest">Sở thích</p>
+                <p class="chonmuc_moi" data-id="cv_content_achievment">Giải thưởng</p>
+                <p class="chonmuc_moi" data-id="cv_content_exp">Kinh nghiệm làm việc</p>
+                <p class="chonmuc_moi" data-id="cv_content_edu">Trình độ học vấn</p>
+                <p class="chonmuc_moi" data-id="cv_content_skill">Kĩ năng</p>
+                <p class="chonmuc_moi" data-id="cv_content_lang">Ngoại ngữ</p>
+              </div>
+            </div>
+          </div>
+          <div class="noidung_cv">
+            <div class="ttin_noidung active" data-id="cv_content_caree">
+              <textarea id="abstract-input" name="nhap_noidung" placeholder="Nhập nội dung"
+                class="nhap_noidung content_change" data-max="250" data-class="job_input_cr_content"></textarea>
+            </div>
+            <div class="ttin_noidung " data-id="cv_content_info">
+              <input id="name-input" class="input content_change" type="text" placeholder="Nhập họ tên" data-max="26"
+                data-class="job_input_cv_name">
+              <input id="job-input" class="input content_change" type="text" placeholder="Công việc mong muốn"
+                data-max="35" data-class="job_input_cv_title">
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_avatar">
+              <div id="job_input_avatar">
+                <img src="/images/icon_upload_file_popup.svg" alt="upload">
+                <span>Chọn file</span>
+                <input id="inputAvatar" type="file"></input>
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_contact">
+              <div class="ttin_noidung_wrapper">
+                <input class="input content_change" type="text"
+                  placeholder="Nhập phương thức liên lạc (phone, mail, location)" data-max="26"
+                  data-class="job_input_cv_name">
+                <input class="input content_change" type="text" placeholder="Thông tin liên lạc" data-max="35"
+                  data-class="job_input_cv_title">
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung" data-id="1">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung" data-id="1">
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_social">
+              <div class="ttin_noidung_wrapper">
+                <input class="input content_change" type="text" placeholder="Tên mạng xã hội" data-max="26"
+                  data-class="job_input_cv_name">
+                <input class="input content_change" type="text" placeholder="Link mạng xã hội" data-max="35"
+                  data-class="job_input_cv_title">
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung">
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_interest">
+              <div class="ttin_noidung_wrapper">
+                <input class="input content_change" type="text" placeholder="Nhập sở thích" data-max="26"
+                  data-class="job_input_cv_name">
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung">
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_achievment">
+              <div class="ttin_noidung_wrapper">
+                <input class="input content_change" type="text" placeholder="Nhập năm nhận thưởng" data-max="4"
+                  data-class="job_input_cv_name">
+                <input class="input content_change" type="text" placeholder="Nhập tên giải thưởng" data-max="35"
+                  data-class="job_input_cv_title">
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung">
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_exp">
+              <div class="ttin_noidung_wrapper">
+                <input class="input content_change" type="text" placeholder="Nhập thời gian làm việc" data-max="20"
+                  data-class="job_input_cv_name">
+                <textarea name="nhap_noidung" placeholder="Nhập mô tả công việc" class="nhap_noidung content_change"
+                  data-max="250" data-class="job_input_cr_content"></textarea>
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung">
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_edu">
+              <div class="ttin_noidung_wrapper">
+                <input class="input content_change" type="text" placeholder="Nhập thời gian học" data-max="20"
+                  data-class="job_input_cv_name">
+                <textarea name="nhap_noidung" placeholder="Nhập mô tả quá trình học" class="nhap_noidung content_change"
+                  data-max="250" data-class="job_input_cr_content"></textarea>
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung">
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_skill">
+              <div class="ttin_noidung_wrapper">
+                <input class="input content_change" type="text" placeholder="Nhập tên kĩ năng" data-max="20"
+                  data-class="job_input_cv_name">
+                <input class="input content_change" type="text" placeholder="Nhập mức độ thành thạo" data-max="10"
+                  data-class="job_input_cv_name">
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung">
+              </div>
+            </div>
+            <div class="ttin_noidung" data-id="cv_content_lang">
+              <div class="ttin_noidung_wrapper">
+                <input class="input language-title-input" type="text" placeholder="Nhập tên ngôn ngữ" data-max="20"
+                  data-class="job_input_cv_name">
+                <input class="input language-value-input" type="text" placeholder="Nhập mức độ thành thạo" data-max="100"
+                  data-class="job_input_cv_name">
+              </div>
+              <div class="thembot_noidung">
+                <img class="xoa_nd" src="images/minus_black.svg" alt="xóa nội dung">
+                <img class="them_nd" src="images/plus_black.svg" alt="thêm nội dung ">
+              </div>
+            </div>
+          </div>
+          <div class="block_option">
+            <div class="div_choose_lang">
+              <button class="choose_lang">
+                <img src="images/flag_china.svg" alt="flag">
+              </button>
+              <div class="block_choose_lang hide" data-show="0">
+                <button class="" data-lang="vi">
+                  <img src="images/flag_vietnam.svg" alt="flag">
+                  <img class="icon_check" src="images/icon_check.svg" alt="icon">
+                </button>
+                <button class="" data-lang="en">
+                  <img src="images/flag_england.svg" alt="flag">
+                  <img class="icon_check" src="images/icon_check.svg" alt="icon">
+
+                </button>
+                <button class="" data-lang="kr">
+                  <img src="images/flag_korea.svg" alt="flag">
+                  <img class="icon_check" src="images/icon_check.svg" alt="icon">
+                </button>
+                <button class="" data-lang="jp">
+                  <img src="images/flag_japan.svg" alt="flag">
+                  <img class="icon_check" src="images/icon_check.svg" alt="icon">
+                </button>
+                <button class="" data-lang="cn">
+                  <img src="images/flag_china.svg" alt="flag">
+                  <img class="icon_check" src="images/icon_check.svg" alt="icon">
+                </button>
+              </div>
+            </div>
+            <button class="record" id="recordButton">
+              <img src="images/icon_microphone.svg" alt="icon">
+            </button>
+            <button class="btn_luu_cv">
+              <img src="images/icon_download4.svg" alt="lưu cv" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="js/cv-new2.js"></script>
+<script src="js/getData.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"
+  integrity="sha512-pdCVFUWsxl1A4g0uV6fyJ3nrnTGeWnZN2Tl/56j45UvZ1OMdm9CIbctuIHj+yBIRTUUyv6I9+OivXj4i0LPEYA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  // $('.click-down').on('click', () => {
+  //   var element = document.querySelector('cv2'); // Chọn phần tử iframe
+  //   var iframeDoc = element.contentDocument || element.contentWindow.document; // Truy cập vào tài liệu trong iframe
+  //   var targetElement = iframeDoc.querySelector('.main'); // Chọn phần tử HTML bên trong iframe
+
+  //   targetElement.setAttribute('style', 'transform: scale(1.0);'); // Đặt giá trị scale về 1.0
+
+  //   html2pdf().from(targetElement).save(); // Xuất file PDF từ phần tử HTML
+  // });
+  $('.click-down').on('click', function () {
+    const iframe = $('#cv2')[0];
+    const content = iframe.contentDocument.documentElement;
+
+    // Use html2canvas to convert HTML to an image
+    html2canvas(content, { width: 800 }).then(function (canvas) {
+      // Convert the canvas to a data URL
+      const imageDataURL = canvas.toDataURL('image/png');
+
+      // Create a link element
+      const downloadLink = $('<a>')
+        .attr('href', imageDataURL)
+        .attr('download', 'html_to_image.png');
+
+      // Append the link to the document
+      $('body').append(downloadLink);
+
+      // Trigger a click on the link to start the download
+      downloadLink[0].click();
+
+      // Remove the link from the document
+      downloadLink.remove();
+    });
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.0/html2canvas.min.js"></script>
+<script src="js/cv.js"></script>
+<script src="js/chooseContent.js"></script>
+
+</html>

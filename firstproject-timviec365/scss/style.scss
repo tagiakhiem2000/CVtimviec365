@@ -1,0 +1,363 @@
+#root {
+    width: 1366px;
+    transform: scale(0.8);
+    transform-origin: top left;
+    #cv {
+        margin: 50px;
+
+        .container {
+            max-width: fit-content;
+        }
+
+        p {
+            font-family: monospace;
+            opacity: 0.5;
+            font-weight: 500;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .content {
+            h4 {
+                font-weight: 600;
+                font-family: monospace;
+                font-size: 30px;
+
+                i {
+                    scale: 2;
+                    padding-left: 10px;
+                    padding-bottom: 25px;
+                }
+            }
+
+            .secondCol {
+                border-left: 2px dashed #343233;
+                border-right: 2px dashed #343233;
+            }
+        }
+
+        #content1 {
+            padding-top: 25px;
+
+            .firstCol {
+                width: 22%;
+                #contact{
+                    min-width: 287.5px;
+                    li{
+                        min-height: 48px;
+                    }
+                }
+            }
+
+            .secondCol {
+                width: 22%;
+            }
+
+            .thirdCol {
+                border-right: 2px dashed #343233;
+                width: 22%;
+            }
+
+            .fourthCol {
+                width: 34%;
+
+                li {
+                    align-items: center;
+
+                    i {
+                        padding-block-start: 0 !important;
+                    }
+                }
+
+                p {
+                    margin-bottom: 0px;
+                }
+            }
+
+            h4 {
+                padding-block-start: 20px;
+            }
+
+            .col-3 {
+                padding: 0px 21px;
+                height: 350px;
+                // border-right: 2px dashed #343233;
+            }
+
+            #contact {
+                padding-inline-start: 7px;
+                // max-width: 23vw;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    
+                    li {
+                        font-family: monospace;
+                        opacity: 0.5;
+                        font-weight: 500;
+
+                    }
+
+                    i {
+                        color: #02cddb;
+                        scale: 2;
+                    }
+                }
+
+                >li {
+                    margin-bottom: 10px;
+                }
+            }
+
+            #followMe {
+                padding-inline-start: 0;
+
+                li {
+                    h5 {
+                        color: #02cddb;
+                        margin-bottom: 0;
+                        font-style: italic;
+                        font-family: monospace;
+                    }
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            #interests {
+                padding-inline-start: 0px;
+
+                li {
+                    align-items: center;
+                    display: flex;
+                    position: relative;
+                    height: 50px;
+
+                    p {
+                        top: 15px;
+                        position: absolute;
+                        left: 65px;
+                    }
+
+                    i {
+                        color: #02cddb;
+                        scale: 2.5;
+                        padding-left: 10px;
+                        position: absolute;
+                    }
+                }
+
+
+            }
+
+            #achievments {
+                padding-inline-start: 0;
+
+                li {
+                    display: flex;
+                    padding-inline-start: 8px;
+                    padding-block-end: 25px;
+
+                    * {
+                        margin-right: 10px;
+                    }
+
+                    i {
+                        padding-block-start: 7px;
+                        color: #02cddb;
+                        scale: 2;
+                    }
+
+                    p {
+                        padding-inline-start: 15px;
+                    }
+                }
+            }
+        }
+
+        #intro {
+            background-color: #02cddb;
+            margin-left: 9px;
+
+            > div{
+                width: 1266px;
+            }
+            .row {
+                position: relative;
+            }
+
+            #imgIntro {
+                position: relative;
+
+                #QRcode {
+                    width: 80px;
+                    position: absolute;
+                    right: 70px;
+                    top: 340px;
+                }
+
+                #avatar {
+                    position: absolute;
+                    border-radius: 50%;
+                    width: 80%;
+                    top: 70px;
+                }
+            }
+
+            #textIntro {
+                padding: 65px 80px;
+                height: 480px;
+                #fullName {
+                    border-bottom: solid;
+                    width: fit-content;
+                    display: flex;
+                    line-height: 1.2;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+
+                    #name {
+                        margin-right: 12px;
+                        font-size: 50px;
+                        font-family: revert;
+                        font-weight: 800;
+                        color: white;
+                        opacity: 1;
+                    }
+
+                    #surName {
+                        font-size: 50px;
+                        font-family: revert;
+                        font-weight: 800;
+                        color: black;
+                        opacity: 1;
+                    }
+                }
+
+                #job {
+                    font-style: italic;
+                    margin-block-start: 5px;
+                    font-family: cursive;
+                    color: black;
+                    opacity: 0.6;
+                    font-size: 20px;
+                }
+
+                #aboutMe {
+                    font-size: 22px;
+                    font-weight: 900;
+                    opacity: 1;
+                    font-family: 'Font Awesome 6 Free';
+                }
+
+                #aim {
+                    word-wrap: break-word;
+                    width: 684px;
+                    opacity: 1; 
+                    color: #ffffff;
+                    text-align: justify;
+                }
+            }
+        }
+
+        #content2 {
+            padding: 0px 25px;
+
+            h4 {
+                padding-block-start: 80px;
+            }
+
+            ul {
+                padding-inline-start: 0;
+
+                h5 {
+                    color: #02cddb;
+                    font-style: italic;
+                }
+
+                p {
+                    text-align: justify;
+                }
+
+            }
+
+            .secondCol {
+                height: 490px;
+            }
+
+            #skills {
+                li {
+                    display: flex;
+
+                    div {
+                        margin: 0px 15px;
+
+                        .chosen {
+                            color: #02cddb;
+                        }
+
+                        .notChosen {
+                            color: #838486;
+                        }
+                    }
+                }
+            }
+
+            #titleLanguages {
+                padding-top: 20px;
+            }
+
+            #languages {
+                width: 345px;
+                li {
+                    .container {
+                        max-width: 100%;
+
+                        .row {
+                            margin-bottom: 8px;
+                        }
+
+                        .wrapperProgress {
+                            .progress {
+                                border-radius: 0;
+                                background-color: #838486;
+
+                                .progress-bar {
+                                    background-color: #02cddb;
+                                }
+                            }
+                        }
+
+                        p {
+                            margin-bottom: 0;
+                        }
+
+                        .col-3 {
+                            position: relative;
+
+                            p {
+                                position: absolute;
+                                top: -5px;
+                            }
+                        }
+
+                        .col-1 {
+                            position: relative;
+
+                            p {
+                                position: absolute;
+                                top: -5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

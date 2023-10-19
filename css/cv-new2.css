@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  body {
+    line-height: unset;
+    background: url(https://dev.timviec365.vn/cv365/images/taoCV_AI/bg_taoCVAI_1920.png)
+      no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+  }
+  .block_left {
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+    padding: 16px 12px;
+    background-color: #ffffff;
+  }
+  .top {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .ctn_taocv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .doi_maucv {
+    width: 131px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(97deg, #ff6c2e 3.36%, #2e81ff 91.44%);
+  }
+  .mo_rong {
+    outline: 0;
+    border: 0;
+    background: #ffffff;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background: var(--G1, linear-gradient(90deg, #f88c00 0.02%, #ffcd6b 100.01%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nhap_tao_cv,
+  .ctn_change_lcf {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ctn_thongtin_cv {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .dm_ttin_chitiet {
+    width: calc(100% - 40px);
+    border-radius: 30px;
+    background: #f2f4ff;
+    padding: 10px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .muc_chon {
+    color: #4c5bd4;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tatca_dm {
+    width: 263px;
+    position: absolute;
+    top: 40px;
+    display: none;
+  }
+  .xoa_dm {
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    background: #ffe1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .ctn_tatca_muc {
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .chonmuc_moi {
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #474747;
+  }
+  .noidung_cv {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    align-items: end;
+  }
+  .ttin_noidung {
+    display: none;
+    width: calc(100% - 40px);
+    border-radius: 8px;
+    background: #f2f4ff;
+    padding: 10px;
+  }
+  .nhap_noidung {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    background: #f2f4ff;
+    height: 200px;
+    border: 0px;
+    resize: unset;
+    font-size: 14px;
+    line-height: 16px;
+    outline: 0;
+  }
+  textarea {
+    border: 1px solid #ddd;
+    width: 92%;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  .gui_ai {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: #4c5bd4;
+  }
+  .mobi_option {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #f2f4ff;
+    display: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  .btn_luu_cv {
+    width: 168px;
+    height: 44px;
+    display: flex;
+    background: #4c5bd4;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    float: right;
+    margin-top: 16px;
+  }
+  .btn_luu_cv > span {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+  }
+  .div-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .chonmuc_moi.active {
+    color: #4c5bd4;
+    border-radius: 3px;
+    background: rgba(76, 91, 212, 0.05);
+  }
+  .ttin_noidung.active {
+    display: flex;
+    flex-direction: column;
+  }
+  .gui_ai.active {
+    display: flex !important;
+  }
+  .input {
+    border: none;
+    background: transparent;
+    width: 100%;
+  }
+  .input:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .textarea {
+    border: none;
+    background: transparent;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+  }
+  .icon-download {
+    height: 32px;
+    width: 32px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c5bd4;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  @media screen and (max-width: 500px) {
+    .block_left {
+      position: fixed;
+      bottom: 0;
+      margin: 0;
+      width: 100%;
+      background-color: white;
+      border-radius: 0px;
+      height: fit-content;
+      overflow-y: scroll;
+    }
+    .block_left.active {
+      height: 200px;
+    }
+    .top {
+      margin: 0;
+      padding: 0;
+      border: none;
+      display: none;
+    }
+    .noidung_cv {
+      align-items: flex-start;
+    }
+    .icon-download {
+      display: flex;
+    }
+    .div-button {
+      display: none;
+    }
+  }

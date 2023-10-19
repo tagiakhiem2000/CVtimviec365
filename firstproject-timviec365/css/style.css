@@ -1,0 +1,284 @@
+#root {
+  width: 1366px;
+  transform: scale(0.8);
+  transform-origin: top left;
+}
+#root #cv {
+  margin: 50px;
+}
+#root #cv .container {
+  max-width: fit-content;
+}
+#root #cv p {
+  font-family: monospace;
+  opacity: 0.5;
+  font-weight: 500;
+}
+#root #cv ul {
+  list-style: none;
+}
+#root #cv .content h4 {
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 30px;
+}
+#root #cv .content h4 i {
+  scale: 2;
+  padding-left: 10px;
+  padding-bottom: 25px;
+}
+#root #cv .content .secondCol {
+  border-left: 2px dashed #343233;
+  border-right: 2px dashed #343233;
+}
+#root #cv #content1 {
+  padding-top: 25px;
+}
+#root #cv #content1 .firstCol {
+  width: 22%;
+}
+#root #cv #content1 .firstCol #contact {
+  min-width: 287.5px;
+}
+#root #cv #content1 .firstCol #contact li {
+  min-height: 48px;
+}
+#root #cv #content1 .secondCol {
+  width: 22%;
+}
+#root #cv #content1 .thirdCol {
+  border-right: 2px dashed #343233;
+  width: 22%;
+}
+#root #cv #content1 .fourthCol {
+  width: 34%;
+}
+#root #cv #content1 .fourthCol li {
+  align-items: center;
+}
+#root #cv #content1 .fourthCol li i {
+  padding-block-start: 0 !important;
+}
+#root #cv #content1 .fourthCol p {
+  margin-bottom: 0px;
+}
+#root #cv #content1 h4 {
+  padding-block-start: 20px;
+}
+#root #cv #content1 .col-3 {
+  padding: 0px 21px;
+  height: 350px;
+}
+#root #cv #content1 #contact {
+  padding-inline-start: 7px;
+}
+#root #cv #content1 #contact li {
+  display: flex;
+  align-items: center;
+}
+#root #cv #content1 #contact li li {
+  font-family: monospace;
+  opacity: 0.5;
+  font-weight: 500;
+}
+#root #cv #content1 #contact li i {
+  color: #02cddb;
+  scale: 2;
+}
+#root #cv #content1 #contact > li {
+  margin-bottom: 10px;
+}
+#root #cv #content1 #followMe {
+  padding-inline-start: 0;
+}
+#root #cv #content1 #followMe li h5 {
+  color: #02cddb;
+  margin-bottom: 0;
+  font-style: italic;
+  font-family: monospace;
+}
+#root #cv #content1 #followMe li p {
+  margin-bottom: 10px;
+}
+#root #cv #content1 #interests {
+  padding-inline-start: 0px;
+}
+#root #cv #content1 #interests li {
+  align-items: center;
+  display: flex;
+  position: relative;
+  height: 50px;
+}
+#root #cv #content1 #interests li p {
+  top: 15px;
+  position: absolute;
+  left: 65px;
+}
+#root #cv #content1 #interests li i {
+  color: #02cddb;
+  scale: 2.5;
+  padding-left: 10px;
+  position: absolute;
+}
+#root #cv #content1 #achievments {
+  padding-inline-start: 0;
+}
+#root #cv #content1 #achievments li {
+  display: flex;
+  padding-inline-start: 8px;
+  padding-block-end: 25px;
+}
+#root #cv #content1 #achievments li * {
+  margin-right: 10px;
+}
+#root #cv #content1 #achievments li i {
+  padding-block-start: 7px;
+  color: #02cddb;
+  scale: 2;
+}
+#root #cv #content1 #achievments li p {
+  padding-inline-start: 15px;
+}
+#root #cv #intro {
+  background-color: #02cddb;
+  margin-left: 9px;
+}
+#root #cv #intro > div {
+  width: 1266px;
+}
+#root #cv #intro .row {
+  position: relative;
+}
+#root #cv #intro #imgIntro {
+  position: relative;
+}
+#root #cv #intro #imgIntro #QRcode {
+  width: 80px;
+  position: absolute;
+  right: 70px;
+  top: 340px;
+}
+#root #cv #intro #imgIntro #avatar {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  top: 70px;
+}
+#root #cv #intro #textIntro {
+  padding: 65px 80px;
+  height: 480px;
+}
+#root #cv #intro #textIntro #fullName {
+  border-bottom: solid;
+  width: fit-content;
+  display: flex;
+  line-height: 1.2;
+}
+#root #cv #intro #textIntro #fullName p {
+  margin-bottom: 0;
+}
+#root #cv #intro #textIntro #fullName #name {
+  margin-right: 12px;
+  font-size: 50px;
+  font-family: revert;
+  font-weight: 800;
+  color: white;
+  opacity: 1;
+}
+#root #cv #intro #textIntro #fullName #surName {
+  font-size: 50px;
+  font-family: revert;
+  font-weight: 800;
+  color: black;
+  opacity: 1;
+}
+#root #cv #intro #textIntro #job {
+  font-style: italic;
+  margin-block-start: 5px;
+  font-family: cursive;
+  color: black;
+  opacity: 0.6;
+  font-size: 20px;
+}
+#root #cv #intro #textIntro #aboutMe {
+  font-size: 22px;
+  font-weight: 900;
+  opacity: 1;
+  font-family: "Font Awesome 6 Free";
+}
+#root #cv #intro #textIntro #aim {
+  word-wrap: break-word;
+  width: 684px;
+  opacity: 1;
+  color: #ffffff;
+  text-align: justify;
+}
+#root #cv #content2 {
+  padding: 0px 25px;
+}
+#root #cv #content2 h4 {
+  padding-block-start: 80px;
+}
+#root #cv #content2 ul {
+  padding-inline-start: 0;
+}
+#root #cv #content2 ul h5 {
+  color: #02cddb;
+  font-style: italic;
+}
+#root #cv #content2 ul p {
+  text-align: justify;
+}
+#root #cv #content2 .secondCol {
+  height: 490px;
+}
+#root #cv #content2 #skills li {
+  display: flex;
+}
+#root #cv #content2 #skills li div {
+  margin: 0px 15px;
+}
+#root #cv #content2 #skills li div .chosen {
+  color: #02cddb;
+}
+#root #cv #content2 #skills li div .notChosen {
+  color: #838486;
+}
+#root #cv #content2 #titleLanguages {
+  padding-top: 20px;
+}
+#root #cv #content2 #languages {
+  width: 345px;
+}
+#root #cv #content2 #languages li .container {
+  max-width: 100%;
+}
+#root #cv #content2 #languages li .container .row {
+  margin-bottom: 8px;
+}
+#root #cv #content2 #languages li .container .wrapperProgress .progress {
+  border-radius: 0;
+  background-color: #838486;
+}
+#root #cv #content2 #languages li .container .wrapperProgress .progress .progress-bar {
+  background-color: #02cddb;
+}
+#root #cv #content2 #languages li .container p {
+  margin-bottom: 0;
+}
+#root #cv #content2 #languages li .container .col-3 {
+  position: relative;
+}
+#root #cv #content2 #languages li .container .col-3 p {
+  position: absolute;
+  top: -5px;
+}
+#root #cv #content2 #languages li .container .col-1 {
+  position: relative;
+}
+#root #cv #content2 #languages li .container .col-1 p {
+  position: absolute;
+  top: -5px;
+}
+
+/*# sourceMappingURL=style.css.map */

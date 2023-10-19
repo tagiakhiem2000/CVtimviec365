@@ -1,0 +1,213 @@
+body {
+  margin: unset;
+  line-height: unset;
+  background: url(../images/bg_taoCVAI_1920.png) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+body .page_create_cvAi {
+  width: 100%;
+}
+body .page_create_cvAi .container_taocv {
+  width: 100%;
+  height: 100%;
+}
+body .page_create_cvAi .container_taocv #cvWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .page_create_cvAi .container_taocv #cvWrapper iframe {
+  width: 50%;
+}
+body .page_create_cvAi .container_taocv .block_left {
+  background-color: white;
+  padding: 16px 12px;
+  height: fit-content;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv {
+  width: 50%;
+  background: rgba(177, 177, 181, 0.55);
+  border-radius: 8px;
+  position: relative;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .thembot_noidung {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .thembot_noidung img {
+  width: 20px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung {
+  width: 97%;
+  border-radius: 8px;
+  background: transparent;
+  padding: 10px;
+  display: none;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung .ttin_noidung_wrapper {
+  position: relative;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung .nhap_noidung {
+  background-color: transparent;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  height: 100%;
+  border: 0px;
+  resize: unset;
+  font-size: 14px;
+  line-height: 16px;
+  outline: 0;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung textarea {
+  font-size: 17px !important;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung input {
+  margin-bottom: 10px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung #job_input_avatar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 5px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .noidung_cv .ttin_noidung #job_input_avatar #inputAvatar {
+  position: absolute;
+  opacity: 0;
+  width: 80%;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .dm_ttin_chitiet {
+  width: 30%;
+  height: 24px;
+  border-radius: 30px;
+  background: rgba(177, 177, 181, 0.55);
+  padding: 10px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .dm_ttin_chitiet .muc_chon {
+  color: #4C5BD4;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  width: 77%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .dm_ttin_chitiet .xoa_dm {
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+  background: #FFE1E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 8px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .dm_ttin_chitiet .tatca_dm {
+  z-index: 9999;
+  top: unset;
+  bottom: 40px;
+  width: 94%;
+  position: absolute;
+  left: 0;
+  display: none;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .dm_ttin_chitiet .tatca_dm .ctn_tatca_muc {
+  width: 100%;
+  display: flex;
+  background: #FFFFFF;
+  padding: 10px 10px;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .dm_ttin_chitiet .tatca_dm .ctn_tatca_muc .chonmuc_moi {
+  width: 100%;
+  display: flex;
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #474747;
+  margin: 0px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .block_option {
+  display: flex;
+  width: 14%;
+  justify-content: space-between;
+  position: relative;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .block_option .div_choose_lang .choose_lang {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .block_option .div_choose_lang .block_choose_lang {
+  position: absolute;
+  top: -66px;
+  display: flex;
+  gap: 12px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px 10px;
+  width: fit-content;
+  right: 33px;
+  box-shadow: 1px 3px 4px 0px #d8d1d1;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .block_option .div_choose_lang .block_choose_lang button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .block_option .div_choose_lang .block_choose_lang button img {
+  width: 28px;
+  height: 28px;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .block_option .div_choose_lang .block_choose_lang button .icon_check {
+  position: absolute;
+  border-radius: 100%;
+  width: 16px !important;
+  left: 10px;
+  top: 0;
+}
+body .page_create_cvAi .container_taocv .block_left .nhap_tao_cv .block_option button {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+body .hide {
+  display: none !important;
+}
+body .active {
+  display: block !important;
+}
+
+/*# sourceMappingURL=style.css.map */
